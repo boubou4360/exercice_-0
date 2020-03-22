@@ -17,7 +17,7 @@ while ( have_posts() ) :
     $gridArea = $jour . '/' . $mois; 
     echo $gridArea;
     echo '<h2>' . get_the_title() .' ' . $gridArea.' ' . get_the_date('j-m-Y') .'</h2>';
-    //echo '<h4 style="grid-area:'. $gridArea .'">' . get_the_title() .  get_the_ID() . get_the_date('Y-m-d') . '</h4>'; 
+
 
 
 
